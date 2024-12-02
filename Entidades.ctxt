@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Entidades
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Entidades\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ aplicarGravidade()
+comment2.params=
+comment2.target=void\ pular()
+comment3.params=
+comment3.target=int\ getImgWidth()
+comment4.params=
+comment4.target=int\ getImgHeight()
+numComments=5
