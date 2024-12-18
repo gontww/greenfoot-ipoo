@@ -7,11 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 public abstract class Botao extends HUD
-{
-    public Botao(String imagem) {
-        setImagem(imagem);
-    }
-    
+{   
     public abstract void executarAcao();
     
     @Override

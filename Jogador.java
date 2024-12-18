@@ -133,13 +133,20 @@ public class Jogador extends Entidades
             }
         }
     }
+    
+    private void bopHead(Actor ceiling)
+    {
+        int ceilingHeight = ceiling.getImage().getHeight();
+        int newY = ceiling.getY() + (ceilingHeight + getImage().getHeight())/2;
+        setLocation(getX(), newY);
+    }
 
     public void setarAnimacao() {
         if(animar()) {
             if(frame >= animacao.length) {
                 frame = 0;
             }
-            setImagem(animacao[frame]);
+            setImage(animacao[frame]);
             frame++;
         }
     }

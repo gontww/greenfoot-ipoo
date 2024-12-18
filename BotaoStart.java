@@ -9,11 +9,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class BotaoStart extends Botao
 {
     public BotaoStart() {
-        super("Play.png");
+        GreenfootImage imagem = getImage();
+        imagem.scale(30, 30);
+        setImage(imagem);
     }
 
     @Override
     public void executarAcao() {
-        Greenfoot.setWorld(new Mundo1());
+        Greenfoot.setWorld(new RolandoDado());
     }
 }

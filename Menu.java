@@ -14,6 +14,8 @@ public class Menu extends World
     }
 
     private void adicionarBotoes() {
-        addObject(new BotaoStart(), 200, 100);
+        addObject(new BotaoStart(), 200, 245);
+        addObject(new Iniciar(), 200, 220);
+        addObject(new NomeJogo(), 200, 100);
     }
 }

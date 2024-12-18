@@ -18,6 +18,8 @@ public class Mundo1 extends World
     private void adicionarTerreno() {
         int larguraSprite = 44;
         int numBlocos = (int) Math.ceil((double) getWidth() / larguraSprite);
+        
+        addObject(new Terra(), 300, 240);
 
         for (int i = 0; i < numBlocos; i++) {
             int posX = i * larguraSprite + larguraSprite / 2;
